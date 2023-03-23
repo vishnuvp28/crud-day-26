@@ -36,15 +36,12 @@ box-shadow: -5px -5px 12px #ffffff,
   box-shadow: inset -5px -5px 12px #ffffff,
   inset 5px 5px 12px rgba(0, 0, 0, 0.4);
 
-
 }
 .nav-buttons:hover{
   border: none;
   box-shadow:  -5px -5px 12px #ffffff,
    5px 5px 12px rgba(0, 0, 0, 0.4);
 }
-
-
 
 .user-content{
 margin : 18px;
@@ -119,8 +116,14 @@ gap: 1rem;
  }
 
  .edit{
-  display:flex;
+
+  display:grid;
   justify-content: center;
-  align-items: center;
+  /* place-items: center; */
+  /* align-items: center; */
+  /* width: 800px; */
  
  }
+ /* .mb-3{
+    width: 800px;
+ } */

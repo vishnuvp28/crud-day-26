@@ -57,26 +57,26 @@ const EditUser = ({user, setUser}) => {
         <Form.Control type="text" placeholder="Id"
             value ={idx}
             onChange={(event)=>setIdx(event.target.value)} />
-      </FloatingLabel><br></br>
+      </FloatingLabel>
 
       <FloatingLabel controlId="floatingPassword" label="Name" className="mb-3">
         <Form.Control type="text"    placeholder="Name"
             value= {name}
             onChange={(event)=>setName(event.target.value)} />
-      </FloatingLabel><br></br>
+      </FloatingLabel>
            
       <FloatingLabel controlId="floatingPassword" label="Email" className="mb-3">
         <Form.Control type="email"  placeholder="Email"
             value= {email}
             onChange={(event)=>setEmail(event.target.value)} />
-      </FloatingLabel><br></br>
+      </FloatingLabel>
 
 
       <FloatingLabel controlId="floatingPassword" label="Experience" className="mb-3">
         <Form.Control type="Number" placeholder="Experience"
             value = {experience}
             onChange={(event)=>setExperience(event.target.value)} />
-      </FloatingLabel> <br></br>
+      </FloatingLabel> 
 
 
       <FloatingLabel controlId="floatingPassword" label="Batch" className="mb-3">

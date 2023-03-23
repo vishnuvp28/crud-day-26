@@ -12,7 +12,7 @@ const history = useHistory();
     const alterList = user.filter((per)=>per.id !== idx);
      setUser(alterList)
    }
-  
+    
     return (
         <BaseApp
         title= "User Details">

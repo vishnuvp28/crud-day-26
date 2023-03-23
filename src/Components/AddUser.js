@@ -31,38 +31,39 @@ export function AddUser({user, setUser}){
     return (
         <BaseApp
         title={"Add A New User"}>
-             <div className='edit'>
+            <div >
+             <div className='edit '>
         
 
         <FloatingLabel controlId="floatingInput" label="ID" className="mb-3">
           <Form.Control type="text" placeholder="Id"
-              value ={id}
+           
               onChange={(event)=>setId(event.target.value)} />
-        </FloatingLabel><br></br>
+        </FloatingLabel>
   
         <FloatingLabel controlId="floatingPassword" label="Name" className="mb-3">
           <Form.Control type="text"    placeholder="Name"
-              value= {name}
+            
               onChange={(event)=>setName(event.target.value)} />
-        </FloatingLabel><br></br>
+        </FloatingLabel>
              
         <FloatingLabel controlId="floatingPassword" label="Email" className="mb-3">
           <Form.Control type="email"  placeholder="Email"
-              value= {email}
+             
               onChange={(event)=>setEmail(event.target.value)} />
-        </FloatingLabel><br></br>
+        </FloatingLabel>
   
   
         <FloatingLabel controlId="floatingPassword" label="Experience" className="mb-3">
           <Form.Control type="Number" placeholder="Experience"
-              value = {experience}
+            
               onChange={(event)=>setExperience(event.target.value)} />
-        </FloatingLabel> <br></br>
+        </FloatingLabel>
   
   
         <FloatingLabel controlId="floatingPassword" label="Batch" className="mb-3">
           <Form.Control type="text"   placeholder="Batch"
-              value = {batch}
+             
               onChange={(event)=>setBatch(event.target.value)} />
         </FloatingLabel>
             
@@ -70,6 +71,7 @@ export function AddUser({user, setUser}){
                 <Button
                 onClick={addNewUser}
                 >Add</Button>
+        </div>
         </div>
         </BaseApp>
     )
